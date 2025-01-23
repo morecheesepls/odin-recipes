@@ -1,14 +1,39 @@
 * {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: bisque;
 }
 
-#page-header {
-    background-color: bisque;
+.page-header {
+    font-size: 48px;
     font-weight: 800;
     text-align: center;
 }
 
-#recipe-links {
-    align-items: center;
+.img-desc {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.recipe-links {
     font-size: 18px;
+}
+
+.ingredient {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ingredients li:nth-child(2) {
+    font-weight: 800;
+}
+
+#chickpea-salad {
+    text-align: center;
+}
+
+#shaking-beef {
+    text-align: right;
+}
+
+.home-link {
+    text-align: center;
 }
