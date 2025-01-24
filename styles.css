@@ -1,8 +1,9 @@
-* {
+*::before, *::after, * {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: bisque;
-    outline: 2px solid red;
+    box-sizing: border-box;
 }
+  
 
 .page-header {
     font-size: 48px;
@@ -10,33 +11,45 @@
     text-align: center;
     background-color: brown;
     color: antiquewhite;
+    padding: 15px;
+}
+
+.img {
+    border: 1px solid black;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .img-desc {
+    border: 1px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 }
 
 .recipe-links {
     font-size: 18px;
+    width: 500px;
+    padding: 15px;
+    margin: 0 auto;
 }
 
-.ingredient {
+.recipe {
+    padding: 10px;
+    margin: 5 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.ingredients {
+    border: 1px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.ingredients li:nth-child(2) {
-    font-weight: 800;
-}
-
-#chickpea-salad {
-    text-align: center;
-}
-
-#shaking-beef {
-    text-align: right;
+.steps {
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .home-link {
-    text-align: center;
+    border: 1px solid black;
 }
