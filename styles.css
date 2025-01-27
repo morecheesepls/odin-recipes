@@ -14,9 +14,16 @@
     padding: 15px;
 }
 
+.recipe-img {
+    border: 1px solid black;
+    width: 600px;
+    margin: 0 auto 5px;
+    padding: 0 25px;
+}
+
 .img {
     border: 1px solid black;
-    padding: 0 450px;
+    padding: 0 50px;
 }
 
 .img-desc {
